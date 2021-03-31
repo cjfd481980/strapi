@@ -25,7 +25,6 @@
     "strapi-lint": "file:packages/strapi-lint"
   },
   "scripts": {
-    "start":"npm run dev",
     "clean": "npm run removesymlinkdependencies && npx rimraf package-lock.json && npx rimraf packages/*/package-lock.json",
     "clean:all": "npm run removesymlinkdependencies && npx rimraf package-lock.json && npx rimraf packages/*/package-lock.json && npx rimraf packages/*/node_modules",
     "doc": "node ./scripts/documentation.js",
